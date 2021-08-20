@@ -23,3 +23,4 @@ def get_product_sales_details():
     else:
         print("Nonetype as product_id")
         return Response("No product_id was given in the request", status=403, mimetype="application/json")
+
